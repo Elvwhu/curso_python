@@ -9,3 +9,4 @@ print(f"Genial {name}, tienes {age} años y ya estás aprendiendo Python!\n")
 
 country, city = input("¿En qué país y ciudad vives?\n").split()  # split() is used to separate the input by comma.
 print(f"Vives en {city}, {country}.\n") 
+# input() can also be used to take multiple inputs in a single line.
