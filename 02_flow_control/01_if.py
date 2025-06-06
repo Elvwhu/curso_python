@@ -66,3 +66,11 @@ print ("False or False:", False or False) # False
 print ("not True:", not True) # False
 print ("not False:", not False) # True
 
+
+print("\nLa condicion ternaria")
+# es u na forma concisa de un if-else en una linea de codigo
+# [codigo si cumple condicion] if [condicion] else [codigo si no cumple condicion] 
+
+edad = 20
+mensaje = "Eres mayor de edad" if edad >= 18 else "Eres menor de edad"
+print(mensaje)
